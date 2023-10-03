@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+background-image: url(../Imagenes/fondoLogin.jpg);
+height: 100vh;
+background-size: cover;
+}
+
+
+.formulario {
+display: flex;
+flex-direction: column;
+width: 400px;
+margin: 0 auto;
+position: relative;
+top: 200px;
+padding: 1em;
+flex-wrap: wrap;
+gap: 0.8em;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+.input
+ {
+    padding: 0.5em;
+    flex: 1 1 30px;
+    border: none;
+    border-radius: 3px;
+}
+button
+ {
+    padding: 0.5em;
+    flex: 1 0 15px;
+    
+}
+.title_productos {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+
+}
+
+.form_productos {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    
+    padding: 1em;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.inp_formulario {
+    padding: 0.5em;
+    flex: 1 0 20px;
+    border: 1px solid #ccc;
+    outline:none;
+    border-radius: 3px;
+}
+.btn_agregar {
+    background: #35f34e;
+    padding: 0.5em;
+    flex: 1  1 5px;
+}
+
+.btn_borrar {
+    background: #f34e4e;
+    padding: 0.5em;
+    flex: 1  1 5px;
+}
